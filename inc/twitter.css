@@ -1,0 +1,33 @@
+.twitters {
+	border: 1px solid #e5e5e5;
+	padding: 5px;
+	overflow: auto;
+	margin: 20px;
+}
+
+.twitters ul {
+	list-style: none;
+	padding: 0;
+	white-space: nowrap;
+}
+
+.twitters ul li {
+	padding-bottom: 1em;
+}
+
+.twitters span.prefix {
+	font-weight: bold;
+}
+
+.twitters span.time {
+	font-style: italic;
+	color: #c5c5c5;
+}
+
+.twitters span.status {
+	font-style: italic;
+}
+
+img.twitter_pic {
+	float: left;
+}
