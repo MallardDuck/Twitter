@@ -4,7 +4,7 @@ if (Dispatcher::getAction() != 'view'):
 
 
 
-<h1><img src="../frog/plugins/twitter/images/twitter_large.png" style="padding-bottom: 15px;" /></h1>
+<h1><img src="../wolf/plugins/twitter/images/twitter_large.png" style="padding-bottom: 15px;" /></h1>
 
 <h1>Extending the Twitter Plugin</h1>
 
@@ -93,10 +93,9 @@ if (Dispatcher::getAction() != 'view'):
 <p>We can then add that information to our output via the javascript function.<br />
 <strong>Please Note that we have to wrap each string in "%" (see below)</strong></p>
 
-<p>If you take a look at the <strong>frog/plugins/twitter/functions</strong> folder there is a file called <strong><em>twitter.php</em></strong></p>
+<p>If you take a look at the <strong>wolf/plugins/twitter/functions</strong> folder there is a file called <strong><em>twitter.php</em></strong></p>
 
 <p>Fire it up and take a look inside - it should look a little bit like this:</p>
-
 
 <p>
 <pre>

@@ -1,9 +1,7 @@
-<?php 
-if (Dispatcher::getAction() != 'view'):
-?>
+<?php if (Dispatcher::getAction() != 'view'): ?>
 
 
-<h1><img src="../frog/plugins/twitter/images/twitter_large.png" style="padding-bottom: 15px;" /></h1>
+<h1><img src="../wolf/plugins/twitter/images/twitter_large.png" style="padding-bottom: 15px;" /></h1>
 
 <h1>Status Display</h1>
 
@@ -12,7 +10,7 @@ if (Dispatcher::getAction() != 'view'):
 
 <h2 style="text-decoration: underline;">Step One</h2>
 
-<p>Add the following code to your site's head section:</p>
+<p>Add the following code to your layout head section:</p>
 <p><code>&lt;?php twitter_js(); ?></code></p>
 <p>&nbsp;</p>
 
