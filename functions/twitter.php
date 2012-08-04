@@ -8,7 +8,7 @@ function twitter($twitter_username,$tweet_count) {
 				clearContents: false,
 				count: ".$tweet_count.", 
 				ignoreReplies: false,
-				template: '\"%text%\" <br /><a href=\"http://twitter.com/%user_screen_name%/statuses/%id%/\">%user_description%</a>'
+				template: '\"%text%\" <br /><a href=\"http://twitter.com/%user_screen_name%/statuses/%id%/\">%user_name%</a>'
 			});
 		</script>
 		<div class=\"twitters\" id=\"tweets\">

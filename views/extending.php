@@ -4,7 +4,7 @@ if (Dispatcher::getAction() != 'view'):
 
 
 
-<h1><img src="../wolf/plugins/twitter/images/twitter_large.png" style="padding-bottom: 15px;" /></h1>
+<h1><img src="<?php echo PLUGINS_URI; ?>twitter/images/twitter_large.png" style="padding-bottom: 15px;" /></h1>
 
 <h1>Extending the Twitter Plugin</h1>
 
