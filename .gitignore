@@ -1,4 +1,16 @@
 #################
+## Netbeans
+#################
+
+project.xm
+project.properties
+nbproject/
+nbproject/private/
+private.properties
+
+
+
+#################
 ## Eclipse
 #################
 
